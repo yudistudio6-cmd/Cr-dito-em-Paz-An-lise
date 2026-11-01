@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "config_revision": 1,
+  "config_revision": 2,
   "ads_enabled": true,
   "test_mode": true,
   "cache_ttl_minutes": 1,
@@ -16,6 +16,15 @@
     "enabled": true,
     "unlock_minutes": 30,
     "optional_features": [
+      "simulador_oferta",
+      "simulador_parcelas",
+      "comparador_propostas",
+      "capacidade_orcamento",
+      "planejamento_moto",
+      "planejamento_carro",
+      "planejamento_casa",
+      "explorar_cenarios",
+      "relatorio_detalhado",
       "advanced_comparison_plus",
       "motorcycle_scenarios_plus",
       "car_scenarios_plus",
