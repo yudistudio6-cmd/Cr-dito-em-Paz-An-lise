@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "config_revision": 2,
-  "ads_enabled": true,
-  "test_mode": true,
+  "ads_enabled": false,
+  "test_mode": false,
   "cache_ttl_minutes": 1,
   "banner": {
-    "enabled": true,
+    "enabled": false,
     "placement": "top"
   },
   "interstitial": {
-    "enabled": true,
+    "enabled": false,
     "min_interval_seconds": 180
   },
   "rewarded": {
-    "enabled": true,
+    "enabled": false,
     "unlock_minutes": 30,
     "optional_features": [
       "simulador_oferta",
@@ -34,7 +34,7 @@
     ]
   },
   "native": {
-    "enabled": true,
+    "enabled": false,
     "placement": "between_sections"
   },
   "app_open": {
