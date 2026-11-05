@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "config_revision": 2,
-  "ads_enabled": false,
-  "test_mode": false,
+  "ads_enabled": true,
+  "test_mode": true,
   "cache_ttl_minutes": 1,
   "banner": {
-    "enabled": false,
+    "enabled": true,
     "placement": "top"
   },
   "interstitial": {
-    "enabled": false,
+    "enabled": true,
     "min_interval_seconds": 180
   },
   "rewarded": {
-    "enabled": false,
+    "enabled": true,
     "unlock_minutes": 30,
     "optional_features": [
       "simulador_oferta",
@@ -34,19 +34,19 @@
     ]
   },
   "native": {
-    "enabled": false,
+    "enabled": true,
     "placement": "between_sections"
   },
   "app_open": {
-    "enabled": false,
+    "enabled": true,
     "min_interval_seconds": 300
   },
   "android_test_ad_units": {
-    "banner": "ca-app-pub-3940256099942544/9214589741",
-    "interstitial": "ca-app-pub-3940256099942544/1033173712",
-    "rewarded": "ca-app-pub-3940256099942544/5224354917",
-    "native": "ca-app-pub-3940256099942544/2247696110",
-    "app_open": "ca-app-pub-3940256099942544/9257395921"
+    "banner": "ca-app-pub-3380498514301154/4830847706",
+    "interstitial": "ca-app-pub-3380498514301154/4040298189",
+    "rewarded": "ca-app-pub-3380498514301154/2855034019",
+    "native": "ca-app-pub-3380498514301154/1214649287",
+    "app_open": "ca-app-pub-3380498514301154/1414134848"
   },
   "android_ad_units": {
     "banner": "",
